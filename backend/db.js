@@ -1,6 +1,6 @@
 const mongoose  = require("mongoose");
 
-var mongoDBURL = 'mongodb+srv://fmz:fmz123@cluster0.cbyyd.mongodb.net/bookshop'
+var mongoDBURL = ''
 
 mongoose.connect(mongoDBURL,{useUnifiedTopology:true,useNewUrlParser:true})
 
